@@ -1,33 +1,14 @@
-11:56:20.635 [main] INFO  base.baseClass - *****Navigating to policyBazaar Website**********
-11:56:21.432 [main] INFO  base.baseClass - *****Scrolling down until all options are available**********
-11:56:22.487 [main] INFO  base.baseClass - *****Selecting travel insurance out of the options available**********
-11:56:23.481 [main] INFO  base.baseClass - *****selecting the country to travel to**********
-11:56:27.181 [main] INFO  base.baseClass - *****Clicking on next button**********
-11:56:27.679 [main] INFO  base.baseClass - *****selecting the start end and end date for the trip**********
-11:56:31.915 [main] INFO  base.baseClass - *****selecting the number of people traveling**********
-11:56:32.274 [main] INFO  base.baseClass - *****selecting age of the person **********
-11:56:33.771 [main] INFO  base.baseClass - *****selecting age of second person**********
-11:56:35.813 [main] INFO  base.baseClass - *****entering the details of any pre-existing medical condition if any**********
-11:56:36.813 [main] INFO  base.baseClass - *****entering the mobile number **********
-11:56:37.822 [main] INFO  base.baseClass - *****displaying the title of the page opened**********
-11:56:39.331 [main] INFO  base.baseClass - *******user selects student plan from the filter options********
-11:56:40.911 [main] INFO  base.baseClass - *******Student Travel Information slider page is opened********
-11:56:41.210 [main] INFO  base.baseClass - *******user selects the Student Visa for both the student travellers********
-11:56:41.819 [main] INFO  base.baseClass - *******user enters the duration of the trip and clicks on apply changes********
-11:56:42.576 [main] INFO  base.baseClass - *****selecting low to high filter from the sort by dropdown to apply filter**********
-11:56:47.349 [main] INFO  base.baseClass - *****printing the top3 minimum travel insurance plans for students**********
-11:56:57.950 [main] INFO  base.baseClass - *****Navigating to policyBazaar Website**********
-11:56:59.184 [main] INFO  base.baseClass - *****user scrolls down the main page**********
-11:56:59.712 [main] INFO  base.baseClass - *****car option is selected out of all the main menu options present**********
-11:57:00.590 [main] INFO  base.baseClass - *****user selects the buying a new car option**********
-11:57:05.143 [main] INFO  base.baseClass - *****user the selects the city**********
-11:57:05.515 [main] INFO  base.baseClass - *****selecting the RTO No for the vehicle**********
-11:57:05.970 [main] INFO  base.baseClass - *****selecting the car brand **********
-11:57:06.875 [main] INFO  base.baseClass - *****selecting the car model type**********
-11:57:07.249 [main] INFO  base.baseClass - *****selecting the engine type**********
-11:57:08.246 [main] INFO  base.baseClass - *****entering all the personal details**********
-11:57:09.604 [main] INFO  base.baseClass - *****displaying the invalid email error**********
-11:57:21.647 [main] INFO  base.baseClass - *****Navigating to policyBazaar Website**********
-11:57:22.375 [main] INFO  base.baseClass - *****hovering over the insurance plans option on the main page**********
-11:57:25.328 [main] INFO  base.baseClass - *****capturing the insurance options available**********
-11:57:25.715 [main] INFO  base.baseClass - *****displaying the health insurance options available**********
+12:57:40.397 [main] INFO  base.baseClass - *****printing the top3 minimum travel insurance plans for students**********
+12:57:44.410 [main] INFO  base.baseClass - *****user scrolls down the main page**********
+12:57:45.166 [main] INFO  base.baseClass - *****car option is selected out of all the main menu options present**********
+12:57:45.888 [main] INFO  base.baseClass - *****user selects the buying a new car option**********
+12:57:51.988 [main] INFO  base.baseClass - *****user the selects the city**********
+12:57:52.799 [main] INFO  base.baseClass - *****selecting the RTO No for the vehicle**********
+12:57:53.086 [main] INFO  base.baseClass - *****selecting the car brand **********
+12:57:54.021 [main] INFO  base.baseClass - *****selecting the car model type**********
+12:57:54.777 [main] INFO  base.baseClass - *****selecting the engine type**********
+12:57:55.792 [main] INFO  base.baseClass - *****entering all the personal details**********
+12:57:57.738 [main] INFO  base.baseClass - *****displaying the invalid email error**********
+12:57:59.825 [main] INFO  base.baseClass - *****hovering over the insurance plans option on the main page**********
+12:58:02.941 [main] INFO  base.baseClass - *****capturing the insurance options available**********
+12:58:03.318 [main] INFO  base.baseClass - *****displaying the health insurance options available**********

@@ -1,164 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-27T15:52:38 IST" name="Suite" finished-at="2024-02-27T15:53:57 IST" duration-ms="78784">
+  <suite started-at="2024-02-29T12:56:32 IST" name="Suite" finished-at="2024-02-29T12:58:06 IST" duration-ms="94158">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepRunner.stepRun@3bb9a3ff]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-02-27T15:52:38 IST" name="Test" finished-at="2024-02-27T15:53:57 IST" duration-ms="78784">
-      <class name="stepRunner.stepRun">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:stepRunner.stepRun@3bb9a3ff]" started-at="2024-02-27T15:52:38 IST" name="setUpClass" finished-at="2024-02-27T15:52:39 IST" duration-ms="1168" status="PASS">
+    <test started-at="2024-02-29T12:56:32 IST" name="Test" finished-at="2024-02-29T12:58:06 IST" duration-ms="94158">
+      <class name="testNG.hooks">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testNG.hooks@402bba4f]" started-at="2024-02-29T12:56:32 IST" name="setup" finished-at="2024-02-29T12:56:55 IST" duration-ms="22858" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4a7c72af]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepRunner.stepRun@3bb9a3ff]" started-at="2024-02-27T15:52:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T15:53:18 IST" duration-ms="38927" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Travel Insurance"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["PolicyBazaar.com"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <input id="Traveller_1" type="checkbox" name="AMT" value="22"> is not clickable at point (1046, 183). Other element would receive the click: <label for="Traveller_1">...</label>
-  (Session info: chrome=113.0.5672.93)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [916b9f4a97e489ca469815be5980f28a, clickElement {id=7A2819631A5E28EBDFDD4C505F9ABD65_element_823}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:54593}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54593/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (916b9f4a97e489ca469815be5980f28a)] -> xpath: //input[@id='Traveller_1']]
-Session ID: 916b9f4a97e489ca469815be5980f28a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="Traveller_1" type="checkbox" name="AMT" value="22"> is not clickable at point (1046, 183). Other element would receive the click: <label for="Traveller_1">...</label>
-  (Session info: chrome=113.0.5672.93)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [916b9f4a97e489ca469815be5980f28a, clickElement {id=7A2819631A5E28EBDFDD4C505F9ABD65_element_823}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:54593}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54593/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (916b9f4a97e489ca469815be5980f28a)] -> xpath: //input[@id='Traveller_1']]
-Session ID: 916b9f4a97e489ca469815be5980f28a
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy59.click(Unknown Source)
-at pageObject.travelInsurance_result.visaOption(travelInsurance_result.java:95)
-at stepDefinition.travel_result.user_selects_the_student_visa_for_both_the_student_travellers(travel_result.java:32)
-at ✽.user selects the Student Visa for both the student travellers(file:///C:/Users/2304020/eclipse-workspace/final/./featureFile/feature.feature:16)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testNG.hooks@402bba4f]" started-at="2024-02-29T12:58:04 IST" name="close" finished-at="2024-02-29T12:58:06 IST" duration-ms="1682" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepRunner.stepRun@3bb9a3ff]" started-at="2024-02-27T15:53:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T15:53:42 IST" duration-ms="23457" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Car Insurance"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["PolicyBazaar.com"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- close -->
+      </class> <!-- testNG.hooks -->
+      <class name="testNG.healthtestNG">
+        <test-method signature="intial()[pri:1, instance:testNG.healthtestNG@158da8e]" started-at="2024-02-29T12:57:59 IST" name="intial" finished-at="2024-02-29T12:57:59 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepRunner.stepRun@3bb9a3ff]" started-at="2024-02-27T15:53:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-27T15:53:53 IST" duration-ms="11331" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Health Insurance"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["PolicyBazaar.com"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 4.232
-  (Session info: chrome=113.0.5672.93)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0be5abd4fdc7529017c6b2043d82b64, get {url=https://www.policybazaar.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:54771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54771/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a0be5abd4fdc7529017c6b2043d82b64]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 4.232
-  (Session info: chrome=113.0.5672.93)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0be5abd4fdc7529017c6b2043d82b64, get {url=https://www.policybazaar.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:54771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54771/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a0be5abd4fdc7529017c6b2043d82b64
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:309)
-at stepDefinition.hooks.setup(hooks.java:22)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        </test-method> <!-- intial -->
+        <test-method signature="user_hovers_over_the_insurance_plans_on_main_page()[pri:2, instance:testNG.healthtestNG@158da8e]" started-at="2024-02-29T12:57:59 IST" name="user_hovers_over_the_insurance_plans_on_main_page" finished-at="2024-02-29T12:58:02 IST" duration-ms="3116" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:stepRunner.stepRun@3bb9a3ff]" started-at="2024-02-27T15:53:53 IST" name="tearDownClass" finished-at="2024-02-27T15:53:57 IST" duration-ms="3845" status="PASS">
+        </test-method> <!-- user_hovers_over_the_insurance_plans_on_main_page -->
+        <test-method signature="finds_health_insurance_option_from_the_list()[pri:3, instance:testNG.healthtestNG@158da8e]" started-at="2024-02-29T12:58:02 IST" name="finds_health_insurance_option_from_the_list" finished-at="2024-02-29T12:58:03 IST" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- stepRunner.stepRun -->
+        </test-method> <!-- finds_health_insurance_option_from_the_list -->
+        <test-method signature="all_the_options_under_health_insurance_are_displayed()[pri:4, instance:testNG.healthtestNG@158da8e]" started-at="2024-02-29T12:58:03 IST" name="all_the_options_under_health_insurance_are_displayed" finished-at="2024-02-29T12:58:04 IST" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- all_the_options_under_health_insurance_are_displayed -->
+      </class> <!-- testNG.healthtestNG -->
+      <class name="testNG.travel_resultTestNG">
+        <test-method signature="user_selects_student_plan_from_the_filter_options()[pri:1, instance:testNG.travel_resultTestNG@3ce1e309]" started-at="2024-02-29T12:57:30 IST" name="user_selects_student_plan_from_the_filter_options" finished-at="2024-02-29T12:57:33 IST" duration-ms="2354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_selects_student_plan_from_the_filter_options -->
+        <test-method signature="student_travel_information_slider_page_is_opened()[pri:2, instance:testNG.travel_resultTestNG@3ce1e309]" started-at="2024-02-29T12:57:33 IST" name="student_travel_information_slider_page_is_opened" finished-at="2024-02-29T12:57:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- student_travel_information_slider_page_is_opened -->
+        <test-method signature="user_selects_the_student_visa_for_both_the_student_travellers()[pri:3, instance:testNG.travel_resultTestNG@3ce1e309]" started-at="2024-02-29T12:57:33 IST" name="user_selects_the_student_visa_for_both_the_student_travellers" finished-at="2024-02-29T12:57:34 IST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_selects_the_student_visa_for_both_the_student_travellers -->
+        <test-method signature="user_enters_the_duration_of_the_trip_and_clicks_on_apply_changes()[pri:4, instance:testNG.travel_resultTestNG@3ce1e309]" started-at="2024-02-29T12:57:34 IST" name="user_enters_the_duration_of_the_trip_and_clicks_on_apply_changes" finished-at="2024-02-29T12:57:34 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_the_duration_of_the_trip_and_clicks_on_apply_changes -->
+        <test-method signature="user_selects_premium_low_to_high_filter_from_sort_by_dropdown()[pri:5, instance:testNG.travel_resultTestNG@3ce1e309]" started-at="2024-02-29T12:57:34 IST" name="user_selects_premium_low_to_high_filter_from_sort_by_dropdown" finished-at="2024-02-29T12:57:40 IST" duration-ms="5584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_selects_premium_low_to_high_filter_from_sort_by_dropdown -->
+        <test-method signature="insurance_plans_are_displayed_and_top3_cheapest_plan_names_along_with_their_is_captured()[pri:6, instance:testNG.travel_resultTestNG@3ce1e309]" started-at="2024-02-29T12:57:40 IST" name="insurance_plans_are_displayed_and_top3_cheapest_plan_names_along_with_their_is_captured" finished-at="2024-02-29T12:57:41 IST" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insurance_plans_are_displayed_and_top3_cheapest_plan_names_along_with_their_is_captured -->
+        <test-method signature="user_is_navigated_to_main_page()[pri:7, instance:testNG.travel_resultTestNG@3ce1e309]" started-at="2024-02-29T12:57:41 IST" name="user_is_navigated_to_main_page" finished-at="2024-02-29T12:57:44 IST" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_is_navigated_to_main_page -->
+      </class> <!-- testNG.travel_resultTestNG -->
+      <class name="testNG.cartestNG">
+        <test-method signature="intial()[pri:1, instance:testNG.cartestNG@6aba2b86]" started-at="2024-02-29T12:57:44 IST" name="intial" finished-at="2024-02-29T12:57:44 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intial -->
+        <test-method signature="user_clicks_on_car_insurance_option_from_all_the_options_available_on_the_main_page()[pri:2, instance:testNG.cartestNG@6aba2b86]" started-at="2024-02-29T12:57:44 IST" name="user_clicks_on_car_insurance_option_from_all_the_options_available_on_the_main_page" finished-at="2024-02-29T12:57:45 IST" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_car_insurance_option_from_all_the_options_available_on_the_main_page -->
+        <test-method signature="user_clicks_on_buying_a_new_car_option()[pri:3, instance:testNG.cartestNG@6aba2b86]" started-at="2024-02-29T12:57:45 IST" name="user_clicks_on_buying_a_new_car_option" finished-at="2024-02-29T12:57:51 IST" duration-ms="6097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_buying_a_new_car_option -->
+        <test-method signature="user_selects_the_city_and_car_number()[pri:4, instance:testNG.cartestNG@6aba2b86]" started-at="2024-02-29T12:57:51 IST" name="user_selects_the_city_and_car_number" finished-at="2024-02-29T12:57:53 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_selects_the_city_and_car_number -->
+        <test-method signature="user_selects_the_car_brand()[pri:5, instance:testNG.cartestNG@6aba2b86]" started-at="2024-02-29T12:57:53 IST" name="user_selects_the_car_brand" finished-at="2024-02-29T12:57:54 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_selects_the_car_brand -->
+        <test-method signature="user_selects_the_car_model_type_and_other_features()[pri:6, instance:testNG.cartestNG@6aba2b86]" started-at="2024-02-29T12:57:54 IST" name="user_selects_the_car_model_type_and_other_features" finished-at="2024-02-29T12:57:55 IST" duration-ms="1770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_selects_the_car_model_type_and_other_features -->
+        <test-method signature="user_fills_the_personal_details_with_invalid_email()[pri:7, instance:testNG.cartestNG@6aba2b86]" started-at="2024-02-29T12:57:55 IST" name="user_fills_the_personal_details_with_invalid_email" finished-at="2024-02-29T12:57:57 IST" duration-ms="1945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_fills_the_personal_details_with_invalid_email -->
+        <test-method signature="invalid_email_error_is_shown()[pri:8, instance:testNG.cartestNG@6aba2b86]" started-at="2024-02-29T12:57:57 IST" name="invalid_email_error_is_shown" finished-at="2024-02-29T12:57:57 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_email_error_is_shown -->
+        <test-method signature="user_is_navigated_to_main_policybazaar_page()[pri:9, instance:testNG.cartestNG@6aba2b86]" started-at="2024-02-29T12:57:57 IST" name="user_is_navigated_to_main_policybazaar_page" finished-at="2024-02-29T12:57:59 IST" duration-ms="2039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_is_navigated_to_main_policybazaar_page -->
+      </class> <!-- testNG.cartestNG -->
+      <class name="testNG.traveltestNG">
+        <test-method signature="user_is_present_on_policybazaar_com()[pri:1, instance:testNG.traveltestNG@71809907]" started-at="2024-02-29T12:56:55 IST" name="user_is_present_on_policybazaar_com" finished-at="2024-02-29T12:56:57 IST" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_is_present_on_policybazaar_com -->
+        <test-method signature="user_clicks_on_travel_insurance_option_from_all_the_options_available_on_the_main_page()[pri:2, instance:testNG.traveltestNG@71809907]" started-at="2024-02-29T12:56:57 IST" name="user_clicks_on_travel_insurance_option_from_all_the_options_available_on_the_main_page" finished-at="2024-02-29T12:57:00 IST" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_travel_insurance_option_from_all_the_options_available_on_the_main_page -->
+        <test-method signature="user_enters_the_country()[pri:3, instance:testNG.traveltestNG@71809907]" started-at="2024-02-29T12:57:00 IST" name="user_enters_the_country" finished-at="2024-02-29T12:57:08 IST" duration-ms="7599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_the_country -->
+        <test-method signature="user_selects_the_start_date_and_end_date_of_the_trip()[pri:4, instance:testNG.traveltestNG@71809907]" started-at="2024-02-29T12:57:08 IST" name="user_selects_the_start_date_and_end_date_of_the_trip" finished-at="2024-02-29T12:57:14 IST" duration-ms="6442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_selects_the_start_date_and_end_date_of_the_trip -->
+        <test-method signature="user_enters_the_number_of_students_traveling_along_with_their_age()[pri:5, instance:testNG.traveltestNG@71809907]" started-at="2024-02-29T12:57:14 IST" name="user_enters_the_number_of_students_traveling_along_with_their_age" finished-at="2024-02-29T12:57:22 IST" duration-ms="7213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_the_number_of_students_traveling_along_with_their_age -->
+        <test-method signature="user_enters_pre_existing_medical_condition_if_any()[pri:6, instance:testNG.traveltestNG@71809907]" started-at="2024-02-29T12:57:22 IST" name="user_enters_pre_existing_medical_condition_if_any" finished-at="2024-02-29T12:57:24 IST" duration-ms="2177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_pre_existing_medical_condition_if_any -->
+        <test-method signature="user_enters_mobile_number_and_clicks_on_submit_button()[pri:7, instance:testNG.traveltestNG@71809907]" started-at="2024-02-29T12:57:24 IST" name="user_enters_mobile_number_and_clicks_on_submit_button" finished-at="2024-02-29T12:57:27 IST" duration-ms="3637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_mobile_number_and_clicks_on_submit_button -->
+        <test-method signature="user_is_navigated_to_results_page()[pri:8, instance:testNG.traveltestNG@71809907]" started-at="2024-02-29T12:57:27 IST" name="user_is_navigated_to_results_page" finished-at="2024-02-29T12:57:30 IST" duration-ms="2872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_is_navigated_to_results_page -->
+      </class> <!-- testNG.traveltestNG -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

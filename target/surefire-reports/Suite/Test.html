@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Feb 27 15:52:38 IST 2024</td>
+<td>Started on:</td><td>Thu Feb 29 12:56:32 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>78 seconds (78784 ms)</td>
+<tr><td>Total time:</td><td>94 seconds (94158 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,120 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='stepRunner.stepRun.runScenario()'><b>runScenario</b><br>Test class: stepRunner.stepRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Travel Insurance", "PolicyBazaar.com"</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;Traveller_1&quot; type=&quot;checkbox&quot; name=&quot;AMT&quot; value=&quot;22&quot;&gt; is not clickable at point (1046, 183). Other element would receive the click: &lt;label for=&quot;Traveller_1&quot;&gt;...&lt;/label&gt;
-  (Session info: chrome=113.0.5672.93)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [916b9f4a97e489ca469815be5980f28a, clickElement {id=7A2819631A5E28EBDFDD4C505F9ABD65_element_823}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:54593}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54593/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (916b9f4a97e489ca469815be5980f28a)] -&gt; xpath: //input[@id=&apos;Traveller_1&apos;]]
-Session ID: 916b9f4a97e489ca469815be5980f28a
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy59.click(Unknown Source)
-	at pageObject.travelInsurance_result.visaOption(travelInsurance_result.java:95)
-	at stepDefinition.travel_result.user_selects_the_student_visa_for_both_the_student_travellers(travel_result.java:32)
-	at ?.user selects the Student Visa for both the student travellers(file:///C:/Users/2304020/eclipse-workspace/final/./featureFile/feature.feature:16)
-... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace263373555", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace263373555'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;Traveller_1&quot; type=&quot;checkbox&quot; name=&quot;AMT&quot; value=&quot;22&quot;&gt; is not clickable at point (1046, 183). Other element would receive the click: &lt;label for=&quot;Traveller_1&quot;&gt;...&lt;/label&gt;
-  (Session info: chrome=113.0.5672.93)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [916b9f4a97e489ca469815be5980f28a, clickElement {id=7A2819631A5E28EBDFDD4C505F9ABD65_element_823}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:54593}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54593/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (916b9f4a97e489ca469815be5980f28a)] -&gt; xpath: //input[@id=&apos;Traveller_1&apos;]]
-Session ID: 916b9f4a97e489ca469815be5980f28a
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy59.click(Unknown Source)
-	at pageObject.travelInsurance_result.visaOption(travelInsurance_result.java:95)
-	at stepDefinition.travel_result.user_selects_the_student_visa_for_both_the_student_travellers(travel_result.java:32)
-	at ?.user selects the Student Visa for both the student travellers(file:///C:/Users/2304020/eclipse-workspace/final/./featureFile/feature.feature:16)
-</pre></div></td>
-<td>38</td>
-<td>stepRunner.stepRun@3bb9a3ff</td></tr>
-<tr>
-<td title='stepRunner.stepRun.runScenario()'><b>runScenario</b><br>Test class: stepRunner.stepRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Health Insurance", "PolicyBazaar.com"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 4.232
-  (Session info: chrome=113.0.5672.93)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0be5abd4fdc7529017c6b2043d82b64, get {url=https://www.policybazaar.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:54771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54771/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a0be5abd4fdc7529017c6b2043d82b64
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:309)
-	at stepDefinition.hooks.setup(hooks.java:22)
-... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace83980058", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace83980058'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 4.232
-  (Session info: chrome=113.0.5672.93)
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0be5abd4fdc7529017c6b2043d82b64, get {url=https://www.policybazaar.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:54771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54771/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a0be5abd4fdc7529017c6b2043d82b64
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:309)
-	at stepDefinition.hooks.setup(hooks.java:22)
-</pre></div></td>
-<td>11</td>
-<td>stepRunner.stepRun@3bb9a3ff</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -189,10 +75,145 @@ Session ID: a0be5abd4fdc7529017c6b2043d82b64
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='stepRunner.stepRun.runScenario()'><b>runScenario</b><br>Test class: stepRunner.stepRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Car Insurance", "PolicyBazaar.com"</td>
+<td title='testNG.travel_resultTestNG.user_is_navigated_to_main_page()'><b>user_is_navigated_to_main_page</b><br>Test class: testNG.travel_resultTestNG</td>
 <td></td>
-<td>23</td>
-<td>stepRunner.stepRun@3bb9a3ff</td></tr>
+<td>3</td>
+<td>testNG.travel_resultTestNG@3ce1e309</td></tr>
+<tr>
+<td title='testNG.healthtestNG.intial()'><b>intial</b><br>Test class: testNG.healthtestNG</td>
+<td></td>
+<td>0</td>
+<td>testNG.healthtestNG@158da8e</td></tr>
+<tr>
+<td title='testNG.cartestNG.user_clicks_on_car_insurance_option_from_all_the_options_available_on_the_main_page()'><b>user_clicks_on_car_insurance_option_from_all_the_options_available_on_the_main_page</b><br>Test class: testNG.cartestNG</td>
+<td></td>
+<td>1</td>
+<td>testNG.cartestNG@6aba2b86</td></tr>
+<tr>
+<td title='testNG.traveltestNG.user_clicks_on_travel_insurance_option_from_all_the_options_available_on_the_main_page()'><b>user_clicks_on_travel_insurance_option_from_all_the_options_available_on_the_main_page</b><br>Test class: testNG.traveltestNG</td>
+<td></td>
+<td>3</td>
+<td>testNG.traveltestNG@71809907</td></tr>
+<tr>
+<td title='testNG.traveltestNG.user_enters_the_number_of_students_traveling_along_with_their_age()'><b>user_enters_the_number_of_students_traveling_along_with_their_age</b><br>Test class: testNG.traveltestNG</td>
+<td></td>
+<td>7</td>
+<td>testNG.traveltestNG@71809907</td></tr>
+<tr>
+<td title='testNG.healthtestNG.finds_health_insurance_option_from_the_list()'><b>finds_health_insurance_option_from_the_list</b><br>Test class: testNG.healthtestNG</td>
+<td></td>
+<td>0</td>
+<td>testNG.healthtestNG@158da8e</td></tr>
+<tr>
+<td title='testNG.traveltestNG.user_enters_pre_existing_medical_condition_if_any()'><b>user_enters_pre_existing_medical_condition_if_any</b><br>Test class: testNG.traveltestNG</td>
+<td></td>
+<td>2</td>
+<td>testNG.traveltestNG@71809907</td></tr>
+<tr>
+<td title='testNG.cartestNG.user_clicks_on_buying_a_new_car_option()'><b>user_clicks_on_buying_a_new_car_option</b><br>Test class: testNG.cartestNG</td>
+<td></td>
+<td>6</td>
+<td>testNG.cartestNG@6aba2b86</td></tr>
+<tr>
+<td title='testNG.cartestNG.user_selects_the_car_model_type_and_other_features()'><b>user_selects_the_car_model_type_and_other_features</b><br>Test class: testNG.cartestNG</td>
+<td></td>
+<td>1</td>
+<td>testNG.cartestNG@6aba2b86</td></tr>
+<tr>
+<td title='testNG.healthtestNG.user_hovers_over_the_insurance_plans_on_main_page()'><b>user_hovers_over_the_insurance_plans_on_main_page</b><br>Test class: testNG.healthtestNG</td>
+<td></td>
+<td>3</td>
+<td>testNG.healthtestNG@158da8e</td></tr>
+<tr>
+<td title='testNG.cartestNG.user_selects_the_city_and_car_number()'><b>user_selects_the_city_and_car_number</b><br>Test class: testNG.cartestNG</td>
+<td></td>
+<td>1</td>
+<td>testNG.cartestNG@6aba2b86</td></tr>
+<tr>
+<td title='testNG.cartestNG.user_is_navigated_to_main_policybazaar_page()'><b>user_is_navigated_to_main_policybazaar_page</b><br>Test class: testNG.cartestNG</td>
+<td></td>
+<td>2</td>
+<td>testNG.cartestNG@6aba2b86</td></tr>
+<tr>
+<td title='testNG.cartestNG.user_selects_the_car_brand()'><b>user_selects_the_car_brand</b><br>Test class: testNG.cartestNG</td>
+<td></td>
+<td>0</td>
+<td>testNG.cartestNG@6aba2b86</td></tr>
+<tr>
+<td title='testNG.travel_resultTestNG.insurance_plans_are_displayed_and_top3_cheapest_plan_names_along_with_their_is_captured()'><b>insurance_plans_are_displayed_and_top3_cheapest_plan_names_along_with_their_is_captured</b><br>Test class: testNG.travel_resultTestNG</td>
+<td></td>
+<td>0</td>
+<td>testNG.travel_resultTestNG@3ce1e309</td></tr>
+<tr>
+<td title='testNG.traveltestNG.user_enters_the_country()'><b>user_enters_the_country</b><br>Test class: testNG.traveltestNG</td>
+<td></td>
+<td>7</td>
+<td>testNG.traveltestNG@71809907</td></tr>
+<tr>
+<td title='testNG.cartestNG.intial()'><b>intial</b><br>Test class: testNG.cartestNG</td>
+<td></td>
+<td>0</td>
+<td>testNG.cartestNG@6aba2b86</td></tr>
+<tr>
+<td title='testNG.traveltestNG.user_is_navigated_to_results_page()'><b>user_is_navigated_to_results_page</b><br>Test class: testNG.traveltestNG</td>
+<td></td>
+<td>2</td>
+<td>testNG.traveltestNG@71809907</td></tr>
+<tr>
+<td title='testNG.travel_resultTestNG.user_enters_the_duration_of_the_trip_and_clicks_on_apply_changes()'><b>user_enters_the_duration_of_the_trip_and_clicks_on_apply_changes</b><br>Test class: testNG.travel_resultTestNG</td>
+<td></td>
+<td>0</td>
+<td>testNG.travel_resultTestNG@3ce1e309</td></tr>
+<tr>
+<td title='testNG.cartestNG.invalid_email_error_is_shown()'><b>invalid_email_error_is_shown</b><br>Test class: testNG.cartestNG</td>
+<td></td>
+<td>0</td>
+<td>testNG.cartestNG@6aba2b86</td></tr>
+<tr>
+<td title='testNG.travel_resultTestNG.user_selects_the_student_visa_for_both_the_student_travellers()'><b>user_selects_the_student_visa_for_both_the_student_travellers</b><br>Test class: testNG.travel_resultTestNG</td>
+<td></td>
+<td>0</td>
+<td>testNG.travel_resultTestNG@3ce1e309</td></tr>
+<tr>
+<td title='testNG.travel_resultTestNG.student_travel_information_slider_page_is_opened()'><b>student_travel_information_slider_page_is_opened</b><br>Test class: testNG.travel_resultTestNG</td>
+<td></td>
+<td>0</td>
+<td>testNG.travel_resultTestNG@3ce1e309</td></tr>
+<tr>
+<td title='testNG.traveltestNG.user_is_present_on_policybazaar_com()'><b>user_is_present_on_policybazaar_com</b><br>Test class: testNG.traveltestNG</td>
+<td></td>
+<td>2</td>
+<td>testNG.traveltestNG@71809907</td></tr>
+<tr>
+<td title='testNG.travel_resultTestNG.user_selects_premium_low_to_high_filter_from_sort_by_dropdown()'><b>user_selects_premium_low_to_high_filter_from_sort_by_dropdown</b><br>Test class: testNG.travel_resultTestNG</td>
+<td></td>
+<td>5</td>
+<td>testNG.travel_resultTestNG@3ce1e309</td></tr>
+<tr>
+<td title='testNG.cartestNG.user_fills_the_personal_details_with_invalid_email()'><b>user_fills_the_personal_details_with_invalid_email</b><br>Test class: testNG.cartestNG</td>
+<td></td>
+<td>1</td>
+<td>testNG.cartestNG@6aba2b86</td></tr>
+<tr>
+<td title='testNG.travel_resultTestNG.user_selects_student_plan_from_the_filter_options()'><b>user_selects_student_plan_from_the_filter_options</b><br>Test class: testNG.travel_resultTestNG</td>
+<td></td>
+<td>2</td>
+<td>testNG.travel_resultTestNG@3ce1e309</td></tr>
+<tr>
+<td title='testNG.traveltestNG.user_selects_the_start_date_and_end_date_of_the_trip()'><b>user_selects_the_start_date_and_end_date_of_the_trip</b><br>Test class: testNG.traveltestNG</td>
+<td></td>
+<td>6</td>
+<td>testNG.traveltestNG@71809907</td></tr>
+<tr>
+<td title='testNG.healthtestNG.all_the_options_under_health_insurance_are_displayed()'><b>all_the_options_under_health_insurance_are_displayed</b><br>Test class: testNG.healthtestNG</td>
+<td></td>
+<td>1</td>
+<td>testNG.healthtestNG@158da8e</td></tr>
+<tr>
+<td title='testNG.traveltestNG.user_enters_mobile_number_and_clicks_on_submit_button()'><b>user_enters_mobile_number_and_clicks_on_submit_button</b><br>Test class: testNG.traveltestNG</td>
+<td></td>
+<td>3</td>
+<td>testNG.traveltestNG@71809907</td></tr>
 </table><p>
 </body>
 </html>
