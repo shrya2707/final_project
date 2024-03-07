@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -12,6 +14,7 @@ public class dataDriven {
 	public static String data1[]=new String[10];
 	public static XSSFSheet sheet;
 	public static XSSFWorkbook workbook;
+	public static XSSFRow row;
 	
 	public static String[] readDataTravel(String fileName) throws IOException, FileNotFoundException
 	{
@@ -32,7 +35,7 @@ public class dataDriven {
 	public static String[] readDataCar(String fileName) throws IOException, FileNotFoundException
 	{
 		FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\policyBazaar.xlsx");
-		XSSFWorkbook workbook=new XSSFWorkbook(file);
+	    workbook=new XSSFWorkbook(file);
 		sheet=workbook.getSheetAt(0);		
 			for(int col=0;col<6;col++)
 			{
@@ -50,11 +53,12 @@ public class dataDriven {
      workbook = new XSSFWorkbook(fi);
      sheet = workbook.getSheet(sheet1);
      for(int i=0;i<data1.length;i++)
-    	 sheet.createRow(i+1).createCell(0).setCellValue(data1[i]);
-     for(int i=0;i<data2.length;i++)
-    	 sheet.getRow(i+1).createCell(1).setCellValue(data2[i]);
-     for(int i=0;i<data3.length;i++)
-    	 sheet.getRow(i+1).createCell(2).setCellValue(data3[i]);
+     {
+    	 row=sheet.createRow(i+1);
+    	 row.createCell(0).setCellValue(data1[i]);
+    	 row.createCell(1).setCellValue(data2[i]);
+    	 row.createCell(2).setCellValue(data3[i]);
+     }
     	 
 	FileOutputStream fo= new FileOutputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\policyBazaar.xlsx");
 	workbook.write(fo);

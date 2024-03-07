@@ -67,15 +67,7 @@ public class travelInsurance_result {
 			
 			@FindBy(xpath="//*[@id='root']/div/header/article/h1/a")
 			public WebElement mainPageIcon ;
-			
-			
-			public void getData() throws FileNotFoundException, IOException
-			{
-				arrtravel_result=dataDriven.readDataTravel("policyBazaar.xlsx");
-				
-				
-			}
-			
+		
 			
 			public void studentPlanFilter()
 			{ 
@@ -110,13 +102,11 @@ public class travelInsurance_result {
 			
 			public void filter() throws FileNotFoundException, IOException, InterruptedException
 			{
-				getData();
 				Thread.sleep(2000);
 				 
 				wait.until(ExpectedConditions.elementToBeClickable(sortBy));
 				sortBy.click();
 				Thread.sleep(2000);
-				System.out.println(arrtravel_result[8]);
 				for(int i=0;i<filterOptn.size();i++)
 				{
 					

@@ -24,18 +24,18 @@ import testNG.hooks;
 		public ExtentReports extent;//adding common info
 		public ExtentTest test;//for creating and updating test entries
 		String repName;
-		screenshot s=new screenshot(hooks.getDriver());
+		static screenshot s=new screenshot(hooks.getDriver());
 		public void onStart(ITestContext testContext) {
 	 
 			String timeStamp = new SimpleDateFormat("yyyy.MM.dd HH.mm.ss").format(new Date());// time stamp
 			repName = "Test-Report-" + timeStamp + ".html";
 			sparkReporter = new ExtentSparkReporter(".\\Reports\\" + repName);// specify location of the report
-			sparkReporter.config().setDocumentTitle("Travel Insurance"); // Title of report
+			sparkReporter.config().setDocumentTitle("Policy Bazaar"); // Title of report
 			sparkReporter.config().setReportName("ExtentReport_TravelInsurance"); // name of the report
 			sparkReporter.config().setTheme(Theme.STANDARD);
 			extent = new ExtentReports();
 			extent.attachReporter(sparkReporter);
-			extent.setSystemInfo("Application", "TravelInsurance");
+			extent.setSystemInfo("Application", "PolicyBazaar");
 			extent.setSystemInfo("Module", "Admin");
 			extent.setSystemInfo("Sub Module", "Customers");
 			extent.setSystemInfo("User Name", System.getProperty("user.name"));

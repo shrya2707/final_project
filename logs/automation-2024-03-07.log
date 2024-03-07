@@ -1,0 +1,49 @@
+17:19:16.716 [main] INFO  base.baseClass - *****user scrolls down the main page**********
+17:19:16.782 [main] INFO  base.baseClass - *****user selects the buying a new car option**********
+17:19:16.818 [main] INFO  base.baseClass - *****hovering over the insurance plans option on the main page**********
+17:19:16.838 [main] INFO  base.baseClass - *****capturing the insurance options available**********
+17:19:16.846 [main] INFO  base.baseClass - *****displaying the health insurance options available**********
+17:19:38.929 [main] INFO  base.baseClass - *****Navigating to policyBazaar Website**********
+17:19:39.228 [main] INFO  base.baseClass - *****Scrolling down until all options are available**********
+17:19:40.272 [main] INFO  base.baseClass - *****Selecting travel insurance out of the options available**********
+17:19:40.926 [main] INFO  base.baseClass - *****selecting the country to travel to**********
+17:19:45.817 [main] INFO  base.baseClass - *****Clicking on next button**********
+17:19:46.015 [main] INFO  base.baseClass - *****selecting the start end and end date for the trip**********
+17:19:48.540 [main] INFO  base.baseClass - *****selecting the number of people traveling**********
+17:19:48.966 [main] INFO  base.baseClass - *****selecting age of the person **********
+17:19:50.459 [main] INFO  base.baseClass - *****selecting age of second person**********
+17:19:52.359 [main] INFO  base.baseClass - *****entering the details of any pre-existing medical condition if any**********
+17:19:53.481 [main] INFO  base.baseClass - *****entering the mobile number **********
+17:19:56.208 [main] INFO  base.baseClass - *****displaying the title of the page opened**********
+17:19:58.019 [main] INFO  base.baseClass - *******user selects student plan from the filter options********
+17:19:59.727 [main] INFO  base.baseClass - *******Student Travel Information slider page is opened********
+17:19:59.732 [main] INFO  base.baseClass - *******user selects the Student Visa for both the student travellers********
+17:20:09.798 [main] INFO  base.baseClass - *******user enters the duration of the trip and clicks on apply changes********
+17:20:29.872 [main] INFO  base.baseClass - *****selecting low to high filter from the sort by dropdown to apply filter**********
+17:20:34.097 [main] INFO  base.baseClass - *****printing the top3 minimum travel insurance plans for students**********
+17:20:34.118 [main] INFO  base.baseClass - *****user scrolls down the main page**********
+17:20:34.193 [main] INFO  base.baseClass - *****user selects the buying a new car option**********
+17:20:34.223 [main] INFO  base.baseClass - *****hovering over the insurance plans option on the main page**********
+17:20:34.244 [main] INFO  base.baseClass - *****capturing the insurance options available**********
+17:20:34.255 [main] INFO  base.baseClass - *****displaying the health insurance options available**********
+17:21:59.148 [main] INFO  base.baseClass - *****Navigating to policyBazaar Website**********
+17:21:59.507 [main] INFO  base.baseClass - *****Scrolling down until all options are available**********
+17:22:00.268 [main] INFO  base.baseClass - *****Selecting travel insurance out of the options available**********
+17:22:01.108 [main] INFO  base.baseClass - *****selecting the country to travel to**********
+17:22:07.191 [main] INFO  base.baseClass - *****Clicking on next button**********
+17:22:07.393 [main] INFO  base.baseClass - *****selecting the start end and end date for the trip**********
+17:22:09.928 [main] INFO  base.baseClass - *****selecting the number of people traveling**********
+17:22:10.404 [main] INFO  base.baseClass - *****selecting age of the person **********
+17:22:12.024 [main] INFO  base.baseClass - *****selecting age of second person**********
+17:22:13.907 [main] INFO  base.baseClass - *****entering the details of any pre-existing medical condition if any**********
+17:22:14.741 [main] INFO  base.baseClass - *****entering the mobile number **********
+17:22:16.296 [main] INFO  base.baseClass - *****displaying the title of the page opened**********
+17:22:18.441 [main] INFO  base.baseClass - *******user selects student plan from the filter options********
+17:22:20.102 [main] INFO  base.baseClass - *******Student Travel Information slider page is opened********
+17:22:20.106 [main] INFO  base.baseClass - *******user selects the Student Visa for both the student travellers********
+17:22:30.175 [main] INFO  base.baseClass - *******user enters the duration of the trip and clicks on apply changes********
+17:22:53.110 [main] INFO  base.baseClass - *****Navigating to policyBazaar Website**********
+17:22:53.436 [main] INFO  base.baseClass - *****Scrolling down until all options are available**********
+17:22:54.531 [main] INFO  base.baseClass - *****Selecting travel insurance out of the options available**********
+17:22:55.195 [main] INFO  base.baseClass - *****selecting the country to travel to**********
+17:23:00.116 [main] INFO  base.baseClass - *****Clicking on next button**********

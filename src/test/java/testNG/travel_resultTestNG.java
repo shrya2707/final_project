@@ -49,7 +49,7 @@ travelInsurance_result tr;
 		baseClass.getlogger().info("*****printing the top3 minimum travel insurance plans for students**********");
 		String name[]=new String[tr.planName.size()];
 		String price[]=new String[tr.planPrice.size()];
-		String company[]=new String[tr.planPrice.size()];
+		String company[]=new String[tr.companyName.size()];
 		
 		for (int i = 0; i < 3; i++) {
 			company[i]=tr.companyName.get(i).getText();

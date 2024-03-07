@@ -26,45 +26,105 @@ public class carInsurance {
 			}
 			
 			
-			@FindBy(xpath="//*[@id='before-tp']/div[2]/a")
+//			@FindBy(xpath="//*[@id='before-tp']/div[2]/a")
+//			public WebElement newCar;
+//			
+//			@FindBy(xpath="//*[@id='dvRTO']/div/ul/li/span")
+//			public List<WebElement> carCity;
+//			
+//			@FindBy(xpath="//*[@id='section1']/ul/li/span")
+//			public List<WebElement> carNo;
+//			
+//			@FindBy(xpath="//*[@id='dvMake']/div/ul/div/li")
+//			public List<WebElement> carModel;
+//			
+//			@FindBy(xpath="//*[@id='modelScroll']/li")
+//			public List<WebElement> carModelType;
+//			
+//			@FindBy(xpath="//*[@id='variantScroll']/li")
+//			public List<WebElement> carModelType1;
+//			
+//			@FindBy(xpath="//*[@id='name']")
+//			public WebElement name;
+//			
+//			@FindBy(xpath="//*[@id='email']")
+//			public WebElement email;
+//			
+//			@FindBy(xpath="//*[@id='mobileNo']")
+//			public WebElement mobileNo;
+//			
+//			@FindBy(xpath="//*[@id='dvVariant']/div[2]/div[1]/div[2]/div[2]")
+//			public WebElement emailError;
+//			
+//			@FindBy(xpath="//*[@id='btnLeadDetails']")
+//			public WebElement submitButton;
+//
+//			
+//			@FindBy(xpath="//*[@id='rootSubDiv']/div[1]/div[1]/div[1]/a[2]")
+//			public WebElement mainPageIcon1;
+			
+			
+			@FindBy(xpath="//div[@class='primaryBtnV1 fontMedium']")
+			public WebElement needhelp;
+			
+			@FindBy(xpath="//a[@class='tollFree']")
+			public WebElement tollfree;
+			
+			@FindBy(xpath="//div[@class='headingV3 fontNormal']/span")
 			public WebElement newCar;
 			
-			@FindBy(xpath="//*[@id='dvRTO']/div/ul/li/span")
+			
+			
+			@FindBy(xpath="//*[@class='gridList CityRTO_gridList__W74_c']/li")
 			public List<WebElement> carCity;
 			
-			@FindBy(xpath="//*[@id='section1']/ul/li/span")
+			@FindBy(xpath="//*[@class='CityRTO_rtoList__Plo2H']/li")
 			public List<WebElement> carNo;
 			
-			@FindBy(xpath="//*[@id='dvMake']/div/ul/div/li")
+			
+			
+			@FindBy(xpath="//*[@class='gridList slideToLeft']/li")
 			public List<WebElement> carModel;
 			
-			@FindBy(xpath="//*[@id='modelScroll']/li")
+			@FindBy(xpath="//*[@class='gridList    slideToLeft mb-16']/li")
 			public List<WebElement> carModelType;
 			
-			@FindBy(xpath="//*[@id='variantScroll']/li")
+			
+			
+			@FindBy(xpath="//*[@class='gridList slideToLeft mb-24']/li")
 			public List<WebElement> carModelType1;
 			
-			@FindBy(xpath="//*[@id='name']")
+			
+			
+			@FindBy(xpath="//*[@placeholder='Full name']")
 			public WebElement name;
 			
-			@FindBy(xpath="//*[@id='email']")
+			@FindBy(xpath="//*[@placeholder='Your email']")
 			public WebElement email;
 			
-			@FindBy(xpath="//*[@id='mobileNo']")
+			
+			
+			@FindBy(xpath="//*[@placeholder='Mobile number']")
 			public WebElement mobileNo;
 			
-			@FindBy(xpath="//*[@id='dvVariant']/div[2]/div[1]/div[2]/div[2]")
+			
+			
+			@FindBy(xpath="//div[@class='errorMsg'][text()='Enter a valid email id']")
 			public WebElement emailError;
 			
-			@FindBy(xpath="//*[@id='btnLeadDetails']")
+			
+			
+			@FindBy(xpath="//button[@class='primaryBtnV2 width-100']")
 			public WebElement submitButton;
 			
-			@FindBy(xpath="//*[@id='rootSubDiv']/div[1]/div[1]/div[1]/a[2]")
-			public WebElement homepage;
 			
 			
-			@FindBy(xpath="//*[@id='rootSubDiv']/div[1]/div[1]/div[1]/a[2]")
-			public WebElement mainPageIcon1;
+			
+			@FindBy(xpath="//div[@class='logo']")
+			public WebElement mainPageIcon1 ;
+			
+			
+			
 			
 			public void getData() throws FileNotFoundException, IOException
 			{
@@ -76,6 +136,11 @@ public class carInsurance {
 			{
 				getData();
 				newCar.click();
+			}
+			
+			public void title()
+			{
+				System.out.println(needhelp.getText());
 			}
 			
 			public void selectCity()
@@ -143,7 +208,10 @@ public class carInsurance {
 				name.sendKeys(p.getProperty("name"));
 				email.sendKeys(p.getProperty("Email"));
 				mobileNo.sendKeys(p.getProperty("Phone"));
-				submitButton.click();
+				if(mainPageIcon1.isEnabled())
+				{
+					System.out.println("Submit button enabled");
+				}
 			}
 			
 			public void naviagteToMainPage1()

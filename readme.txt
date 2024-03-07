@@ -41,8 +41,13 @@ Generating extent report and cucumber report
 
 -> stepRunner: Includes the class responsible for running the feature file along with stepDefinition package and create the extent report and cucumber reports.
 
+-> testNG: contains all the test case classes
+
+->utilities: contains the class for generating extent report in testNG
 
 2.src/test/resources- In this folder, we have
+-> TestNG package : which contains all the XML files to run our testNG cases in cross browser as well as parallel environment
+
 -> configuration file :which includes the browser setup, URL and other user details.
 
 -> extent properties file :which includes the location where the extent report is to be generated

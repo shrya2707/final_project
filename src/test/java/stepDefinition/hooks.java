@@ -1,10 +1,12 @@
 package stepDefinition;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import base.baseClass;
 import io.cucumber.java.*;
@@ -19,8 +21,17 @@ public class hooks {
 	{
 		driver=baseClass.initilizeBrowser();	
 		p=baseClass.getProperties();
+		try
+		{
 		driver.get(p.getProperty("appURL"));
+
+		}catch(TimeoutException e) {
+		
+		}
 		driver.manage().window().maximize();
+		
+		
+		
 	}
 	
 	@After

@@ -87,6 +87,7 @@ public class home {
 		{
 			Actions act=new Actions(driver);
 			act.moveToElement(hoverinsurance).perform();
+			//hoverinsurance.click();
 			Thread.sleep(2000);
 		}
 		

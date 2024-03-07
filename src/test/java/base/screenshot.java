@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 
 public class screenshot {
 	
-	   WebDriver driver;
+	  public WebDriver driver;
 	
 	public screenshot(WebDriver driver)
 	{

@@ -58,23 +58,33 @@ public class car {
 	    c.selectCarModelType1();
 	}
 
-	@When("user fills the personal details with invalid email")
-	public void user_fills_the_personal_details_with_invalid_email() throws IOException {
+	@When("user enters the name as {string} email as {string} and phone number as {string}")
+	public void user_enters_the_name_as_email_as_and_phone_number_as(String name, String email, String phnNo) throws IOException {
 		baseClass.getlogger().info("*****entering all the personal details**********");
-		c.personalDetails();
-		s.ScreenShots("emailError");
+		c.name.sendKeys(name);
+		c.email.sendKeys(email);
+		c.mobileNo.sendKeys(phnNo);
+		
+		
 	}
 
 	@Then("invalid email error is shown")
 	public void invalid_email_error_is_shown() {
 		baseClass.getlogger().info("*****displaying the invalid email error**********");
-	    System.out.println("Error :"+c.emailError.getText());
+		if(c.submitButton.isEnabled())
+		{
+			System.out.println("Submit button enabled");
+		}
+		else
+		{
+			System.out.println("Error :"+c.emailError.getText());
+		}
 	   
 	}
 	
 	@Then("user is navigated to main policybazaar page")
 	public void user_is_navigated_to_main_policybazaar_page() {
-	    c.homepage.click();
+	    c.mainPageIcon1.click();
 	}
 
 

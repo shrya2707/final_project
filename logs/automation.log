@@ -1,14 +1,28 @@
-12:57:40.397 [main] INFO  base.baseClass - *****printing the top3 minimum travel insurance plans for students**********
-12:57:44.410 [main] INFO  base.baseClass - *****user scrolls down the main page**********
-12:57:45.166 [main] INFO  base.baseClass - *****car option is selected out of all the main menu options present**********
-12:57:45.888 [main] INFO  base.baseClass - *****user selects the buying a new car option**********
-12:57:51.988 [main] INFO  base.baseClass - *****user the selects the city**********
-12:57:52.799 [main] INFO  base.baseClass - *****selecting the RTO No for the vehicle**********
-12:57:53.086 [main] INFO  base.baseClass - *****selecting the car brand **********
-12:57:54.021 [main] INFO  base.baseClass - *****selecting the car model type**********
-12:57:54.777 [main] INFO  base.baseClass - *****selecting the engine type**********
-12:57:55.792 [main] INFO  base.baseClass - *****entering all the personal details**********
-12:57:57.738 [main] INFO  base.baseClass - *****displaying the invalid email error**********
-12:57:59.825 [main] INFO  base.baseClass - *****hovering over the insurance plans option on the main page**********
-12:58:02.941 [main] INFO  base.baseClass - *****capturing the insurance options available**********
-12:58:03.318 [main] INFO  base.baseClass - *****displaying the health insurance options available**********
+17:23:00.371 [main] INFO  base.baseClass - *****selecting the start end and end date for the trip**********
+17:23:03.269 [main] INFO  base.baseClass - *****selecting the number of people traveling**********
+17:23:03.671 [main] INFO  base.baseClass - *****selecting age of the person **********
+17:23:05.210 [main] INFO  base.baseClass - *****selecting age of second person**********
+17:23:07.394 [main] INFO  base.baseClass - *****entering the details of any pre-existing medical condition if any**********
+17:23:08.629 [main] INFO  base.baseClass - *****entering the mobile number **********
+17:23:11.081 [main] INFO  base.baseClass - *****displaying the title of the page opened**********
+17:23:13.591 [main] INFO  base.baseClass - *******user selects student plan from the filter options********
+17:23:15.324 [main] INFO  base.baseClass - *******Student Travel Information slider page is opened********
+17:23:15.337 [main] INFO  base.baseClass - *******user selects the Student Visa for both the student travellers********
+17:23:23.031 [main] INFO  base.baseClass - *******user enters the duration of the trip and clicks on apply changes********
+17:23:33.177 [main] INFO  base.baseClass - *****selecting low to high filter from the sort by dropdown to apply filter**********
+17:24:54.537 [main] INFO  base.baseClass - *****Navigating to policyBazaar Website**********
+17:24:54.819 [main] INFO  base.baseClass - *****Scrolling down until all options are available**********
+17:24:55.644 [main] INFO  base.baseClass - *****Selecting travel insurance out of the options available**********
+17:24:56.160 [main] INFO  base.baseClass - *****selecting the country to travel to**********
+17:25:01.920 [main] INFO  base.baseClass - *****Clicking on next button**********
+17:25:02.089 [main] INFO  base.baseClass - *****selecting the start end and end date for the trip**********
+17:25:04.533 [main] INFO  base.baseClass - *****selecting the number of people traveling**********
+17:25:05.001 [main] INFO  base.baseClass - *****selecting age of the person **********
+17:25:06.456 [main] INFO  base.baseClass - *****selecting age of second person**********
+17:25:08.173 [main] INFO  base.baseClass - *****entering the details of any pre-existing medical condition if any**********
+17:25:09.005 [main] INFO  base.baseClass - *****entering the mobile number **********
+17:25:12.183 [main] INFO  base.baseClass - *****displaying the title of the page opened**********
+17:25:16.160 [main] INFO  base.baseClass - *******user selects student plan from the filter options********
+17:25:17.520 [main] INFO  base.baseClass - *******Student Travel Information slider page is opened********
+17:25:17.528 [main] INFO  base.baseClass - *******user selects the Student Visa for both the student travellers********
+17:25:25.143 [main] INFO  base.baseClass - *******user enters the duration of the trip and clicks on apply changes********
